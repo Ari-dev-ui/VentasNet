@@ -1,1 +1,16 @@
 # Registro de cambios
+
+## Solicitudes y matriz de impacto
+
+| Criterio | INC-001 | CR-002 |
+|---|---|---|
+| Origen | Error detectado en el cálculo de ventas. | Solicitud del área comercial. |
+| Descripción | El total solo considera el precio de una unidad. | Aplicar 10 % de descuento desde un subtotal de S/ 200. |
+| Justificación | El total debe incluir todas las unidades compradas. | La promoción debe aplicarse a las compras que alcancen el monto indicado. |
+| Requisito | RF-001: calcular el total según precio y cantidad. | RF-002: aplicar el descuento desde S/ 200. |
+| Archivos afectados | `src/ventas.py` y `pruebas/casos_prueba.md`. | `src/ventas.py`, `docs/requisitos.md` y `pruebas/casos_prueba.md`. |
+| Riesgo | Cobrar menos al vender varias unidades. | Aplicar mal el descuento en el límite de S/ 200. |
+| Criterio de aceptación | S/ 50 × 3 unidades = S/ 150. | S/ 150 queda en S/ 150, S/ 200 baja a S/ 180 y S/ 300 baja a S/ 270. |
+| Prioridad | Alta, porque afecta el importe de la venta. | Media, porque agrega una regla comercial. |
+| Decisión | Aprobada en la simulación académica. | Aprobada en la simulación académica. |
+| Responsable | Robles Bernardo Aribert Hans. | Robles Bernardo Aribert Hans. |
