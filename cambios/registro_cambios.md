@@ -14,3 +14,7 @@
 | Prioridad | Alta, porque afecta el importe de la venta. | Media, porque agrega una regla comercial. |
 | Decisión | Aprobada en la simulación académica. | Aprobada en la simulación académica. |
 | Responsable | Robles Bernardo Aribert Hans. | Robles Bernardo Aribert Hans. |
+
+## Seguimiento
+
+- **INC-001:** Implementada y verificada mediante CP-001. El programa calculó S/ 150 para 3 unidades de S/ 50.
