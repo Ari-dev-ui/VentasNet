@@ -18,3 +18,12 @@
 ## Seguimiento
 
 - **INC-001:** Implementada y verificada mediante CP-001. El programa calculó S/ 150 para 3 unidades de S/ 50.
+
+- **CR-002:** Implementada y verificada mediante CP-002, CP-003 y CP-004. El descuento del 10 % se aplicó desde S/ 200. La compra de S/ 150 mantuvo su total.
+
+## Tabla de trazabilidad
+
+| ID de cambio | Rama | Commit | Pruebas | Versión de entrega |
+|---|---|---|---|---|
+| INC-001 | `fix/INC-001-total` | `302e6eb` | CP-001 | `v1.1.0` |
+| CR-002 | `feature/CR-002-descuento` | `da37d63` | CP-002, CP-003 y CP-004 | `v1.1.0` |
